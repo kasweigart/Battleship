@@ -7,6 +7,7 @@
     </head>
     <body>
         <div id="board">
+            <div class="messageArea"></div>   
             <table>
                 <tr>
                     <td id="00"></td>
@@ -22,7 +23,7 @@
                     <td id="10"></td>
                     <td id="11"><td>
                     <td id="12"></td>
-                    <td id="13"></td>
+                    <td id="13" class="hit"></td>
                     <td id="14"></td>
                     <td id="15"></td>
                     <td id="16"></td>
@@ -73,8 +74,11 @@
                     <td id="66"></td>
                 </tr>
             </table>
-        </div>
+            <form>
+                <input type="text" id="greenplanet" placeholder="A0">
+                <input type="button" id="fireButton" value="Fire!">
+            </form>        
+            </div>
         <script src="battleship.js"></script>
     </body>
-</html
->
+</html>
