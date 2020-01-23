@@ -106,7 +106,7 @@ var model = {
 };
 
 
-var controller {
+var controller = {
     guesses: 0,
 
     processGuess: function(guess) {
